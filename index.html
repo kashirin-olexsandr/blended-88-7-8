@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -32,19 +44,21 @@
 
       <!-- About Section -->
       <section id="about">
-        <img src="./images/about.jpg" alt="Team" width="670" />
-
-        <div>
-          <p class="sup-title">What you are looking for</p>
-          <h2>We provide bespoke solutions</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
-          </p>
-
-          <button type="button">Read More</button>
+        <div class="container about-container">
+          <img src="./images/about.jpg" alt="Team" width="670" />
+          <div class="about-right-side">
+            <p class="sup-title about-suptitle">What you are looking for</p>
+            <h2 class="section-title about-section-title">
+              We provide bespoke solutions
+            </h2>
+            <p class="text about-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="text button-about">Read More</button>
+          </div>
         </div>
       </section>
 
