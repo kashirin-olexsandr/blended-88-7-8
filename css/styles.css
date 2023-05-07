@@ -40,6 +40,7 @@ img {
 address {
   font-style: normal;
 }
+
 button {
   cursor: pointer;
 }
@@ -47,6 +48,7 @@ button {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
@@ -132,16 +134,19 @@ body {
   background-color: var(--light-color);
 }
 
+
 /* ---------Footer Section------ */
 
 .footer {
   background-color: var(--main-color);
   margin: 0;
 }
+
 .footer-div {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .footer-social-icon {
   fill: var(--light-color);
 }
