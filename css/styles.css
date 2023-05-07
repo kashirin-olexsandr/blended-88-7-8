@@ -134,6 +134,49 @@ body {
   background-color: var(--light-color);
 }
 
+/* --------- Cases------ */
+
+.section-cases {
+  padding: 80px 28px;
+}
+
+.uppertitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--main-color);
+}
+
+.cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--main-color);
+}
+
+.cases-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--main-color);
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+
+.cases-list-images {
+  display: block;
+  width: calc((100%-42)/3);
+}
 
 /* ---------Footer Section------ */
 
