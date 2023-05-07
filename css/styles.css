@@ -4,6 +4,9 @@
   --light-color: #ffffff;
   --accent-color: #28a745;
 
+  --main-color: #333333;
+  --light-color: #ffffff;
+
   /* Transition */
   --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -127,4 +130,39 @@ body {
 .button-about:focus {
   color: var(--accent-color);
   background-color: var(--light-color);
+}
+
+/* ---------Footer Section------ */
+
+.footer {
+  background-color: var(--main-color);
+  margin: 0;
+}
+.footer-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-social-icon {
+  fill: var(--light-color);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 6px;
+}
+
+.footer-paragraf {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+  color: var(--light-color);
 }
