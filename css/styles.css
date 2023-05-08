@@ -175,7 +175,83 @@ body {
 
 .cases-list-images {
   display: block;
-  width: calc((100%-42)/3);
+  width: calc((100%-42) / 3);
+}
+
+/* ---------Team Section------- */
+
+.team {
+  padding-bottom: 80px;
+}
+
+.team-suptitle,
+.team-title,
+.team-text {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+}
+
+.team-item {
+  text-align: center;
+}
+
+.team-name {
+  margin-top: 20px;
+  margin-bottom: 12px;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+}
+
+.social-thumb::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  content: '';
+  display: inline-block;
+
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+  opacity: 0;
+  transition: opacity var(--transition-dur-func);
+}
+
+.team-item:hover .social-thumb::before,
+.team-item:hover .team-social-list {
+  opacity: 1;
+}
+
+.social-thumb {
+  position: relative;
+}
+
+.team-social-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  opacity: 0;
+  transition: opacity var(--transition-dur-func);
+}
+
+.team-social-icon {
+  fill: var(--light-color);
 }
 
 /* ---------Footer Section------ */
