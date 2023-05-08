@@ -1,144 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./images/main-logo.svg" alt="Main Logo Finance Ledger" />
+        <span>Finance</span> Ledger
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cases">Cases</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>The Sky Is The Limit</h1>
+        <p>We provide world class financial assistance</p>
+        <button type="button">Read More</button>
+      </section>
 
-<body>
-  <header>
-    <a href="./index.html">
-      <img src="./images/main-logo.svg" alt="Main Logo Finance Ledger" />
-      <span>Finance</span> Ledger
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#cases">Cases</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="hero">
-      <h1>The Sky Is The Limit</h1>
-      <p>We provide world class financial assistance</p>
-      <button type="button">Read More</button>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-      <div class="container about-container">
-        <img src="./images/about.jpg" alt="Team" width="670" />
-        <div class="about-right-side">
-          <p class="sup-title about-suptitle">What you are looking for</p>
-          <h2 class="section-title about-section-title">
-            We provide bespoke solutions
-          </h2>
-          <p class="text about-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptate, ipsum dignissimos quae laudantium asperiores nam
-            aliquid impedit harum illum dolore explicabo ab dolores itaque
-            rerum temporibus doloribus iste maiores deleniti?
-          </p>
-          <button type="button" class="text button-about">Read More</button>
+      <!-- About Section -->
+      <section id="about">
+        <div class="container about-container">
+          <img src="./images/about.jpg" alt="Team" width="670" />
+          <div class="about-right-side">
+            <p class="sup-title about-suptitle">What you are looking for</p>
+            <h2 class="section-title about-section-title">
+              We provide bespoke solutions
+            </h2>
+            <p class="text about-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="text button-about">Read More</button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Cases -->
+      <!-- Cases -->
 
-    <section class="section-cases" id="cases">
-      <div class=" container cases-container">
-        <p class="uppertitle">This is what we do</p>
-        <h2 class="cases-title">Business Cases</h2>
-        <p class="cases-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul class="cases-list list link">
-          <li class="cases-list-images">
-            <img src="./images/cases/top-view-team.jpg" width="421" alt="Top view of the team" />
+      <section class="section-cases" id="cases">
+        <div class="container cases-container">
+          <p class="uppertitle">This is what we do</p>
+          <h2 class="cases-title">Business Cases</h2>
+          <p class="cases-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="cases-list list link">
+            <li class="cases-list-images">
+              <img
+                src="./images/cases/top-view-team.jpg"
+                width="421"
+                alt="Top view of the team"
+              />
+            </li>
+            <li class="cases-list-images">
+              <img src="./images/cases/notes.jpg" width="421" alt="Notes" />
+            </li>
+            <li class="cases-list-images">
+              <img
+                src="./images/cases/hand-shake.jpg"
+                width="421"
+                alt="Hand shake"
+              />
+            </li>
+            <li class="cases-list-images">
+              <img
+                src="./images/cases/team-hands.jpg"
+                width="421"
+                alt="Top view for the team hands"
+              />
+            </li>
+            <li class="cases-list-images">
+              <img
+                src="./images/cases/laptop.jpg"
+                width="421"
+                alt="Working on laptop"
+              />
+            </li>
+            <li class="cases-list-images">
+              <img
+                src="./images/cases/buildings.jpg"
+                width="421"
+                alt="buildings"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team section -->
+      <section class="team">
+        <div class="team-container container">
+          <p class="team-suptitle sup-title">Who we are</p>
+          <h2 class="team-title section-title">Our Professional Team</h2>
+          <p class="team-text text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+
+          <ul class="team-list list">
+            <li class="team-item">
+              <div class="social-thumb">
+                <img
+                  src="./images/team/john-doe.jpg"
+                  alt="man"
+                  width="421px"
+                  height="286px"
+                />
+                <ul class="team-social-list list">
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Youtube icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-name">John Doe</h3>
+              <p class="text">President</p>
+            </li>
+            <li class="team-item">
+              <div class="social-thumb">
+                <img
+                  src="./images/team/jane-doe.jpg"
+                  alt="woman"
+                  width="421px"
+                  height="286px"
+                />
+                <ul class="team-social-list list">
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Youtube icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-name">Jane Doe</h3>
+              <p class="text">Vice President</p>
+            </li>
+            <li class="team-item">
+              <div class="social-thumb">
+                <img
+                  src="./images/team/steve-smith.jpg"
+                  alt="man"
+                  width="421px"
+                  height="286px"
+                />
+                <ul class="team-social-list list">
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Twitter icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Youtube icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a
+                      class="team-social-link"
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Linkedin icon"
+                    >
+                      <svg class="team-social-icon" width="35" height="35">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-name">Steve Smith</h3>
+              <p class="text">Marketing Head</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Request callback -->
+      <section>
+        <img
+          src="./images/request/mantolaptop.jpg"
+          alt="man at the laptop"
+          width="670"
+        />
+        <h2>Request callback</h2>
+        <ul>
+          <li><input type="text" placeholder="Enter your name" /></li>
+          <li>
+            <input type="email" name="" id="" placeholder="Enter email*" />
           </li>
-          <li class="cases-list-images">
-            <img src="./images/cases/notes.jpg" width="421" alt="Notes" />
+          <li><input type="submit" value="send" /></li>
+        </ul>
+      </section>
+
+      <a href=""> </a>
+    </main>
+    <footer class="footer">
+      <div class="footer-div container">
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a href="https://www.facebook.com" class="footer-link link">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
           </li>
-          <li class="cases-list-images">
-            <img src="./images/cases/hand-shake.jpg" width="421" alt="Hand shake" />
+          <li class="footer-item">
+            <a href="https://www.twitter.com" class="footer-link link">
+              <svg class="footer-social-icon" width="35" height="35">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
           </li>
-          <li class="cases-list-images">
-            <img src="./images/cases/team-hands.jpg" width="421" alt="Top view for the team hands" />
+          <li class="footer-item">
+            <a href="https://www.youtube.com" class="footer-link link">
+              <svg class="footer-social-icon" width="40" height="35">
+                <use href="./images/icons.svg#youtube"></use>
+              </svg>
+            </a>
           </li>
-          <li class="cases-list-images">
-            <img src="./images/cases/laptop.jpg" width="421" alt="Working on laptop" />
-          </li>
-          <li class="cases-list-images">
-            <img src="./images/cases/buildings.jpg" width="421" alt="buildings" />
+          <li class="footer-item">
+            <a href="https://https:/ua.linkedin.com" class="footer-link link">
+              <svg class="footer-social-icon" width="31" height="35">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
+        <p class="footer-paragraf">Copyright &copy; 2021 - FinanceLedger</p>
       </div>
-    </section>
-    <!-- Request callback -->
-    <section>
-      <img src="./images/request/mantolaptop.jpg" alt="man at the laptop" width="670" />
-      <h2>Request callback</h2>
-      <ul>
-        <li><input type="text" placeholder="Enter your name" /></li>
-        <li>
-          <input type="email" name="" id="" placeholder="Enter email*" />
-        </li>
-        <li><input type="submit" value="send" /></li>
-      </ul>
-    </section>
-
-    <a href=""> </a>
-  </main>
-  <footer class="footer">
-    <div class="footer-div container">
-      <ul class="footer-list list">
-        <li class="footer-item">
-          <a href="https://www.facebook.com" class="footer-link link">
-            <svg class="footer-social-icon" width="35" height="35">
-              <use href="./images/icons.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a href="https://www.twitter.com" class="footer-link link">
-            <svg class="footer-social-icon" width="35" height="35">
-              <use href="./images/icons.svg#twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a href="https://www.youtube.com" class="footer-link link">
-            <svg class="footer-social-icon" width="40" height="35">
-              <use href="./images/icons.svg#youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a href="https://https:/ua.linkedin.com" class="footer-link link">
-            <svg class="footer-social-icon" width="31" height="35">
-              <use href="./images/icons.svg#linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <p class="footer-paragraf">Copyright &copy; 2021 - FinanceLedger</p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
