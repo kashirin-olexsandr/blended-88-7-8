@@ -5,7 +5,9 @@
   --accent-color: #28a745;
 
   --main-color: #333333;
+  --secondary-color: #808080;
   --light-color: #ffffff;
+  --secondary-bg-color: #F4F4F4;
 
   /* Transition */
   --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -219,11 +221,9 @@ body {
 
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-  );
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6));
   opacity: 0;
   transition: opacity var(--transition-dur-func);
 }
@@ -253,6 +253,71 @@ body {
 .team-social-icon {
   fill: var(--light-color);
 }
+
+/* ---------Callback Section--------- */
+
+.request-callback {}
+
+.callback-container {
+  display: flex;
+
+}
+
+.callback-right-side {
+  background-color: var(--secondary-bg-color);
+  padding-left: 20px;
+  padding-right: 28px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 690px;
+}
+
+.callback-form {
+  /* width: 642px; */
+}
+
+.callback-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--main-color);
+
+  margin-bottom: 32px;
+}
+
+.callback-item:first-child {
+  margin-bottom: 32px;
+}
+
+.callback-item:last-child {
+  margin-top: 60px;
+}
+
+.callback-input {
+  width: 620px;
+  height: 40px;
+  padding-right: 0;
+}
+
+.callback-input::placeholder {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.callback-submit {
+  width: 642px;
+  height: 42px;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  color: var(--light-color);
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+
+}
+
 
 /* ---------Footer Section------ */
 
